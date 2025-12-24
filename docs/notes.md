@@ -14,3 +14,9 @@
 - Refresh interval target (e.g., 15/30/60 min).
 - Preferred UI: menu bar app vs notifications-only.
 - Whether to support non-Safari browsers.
+
+## Session context
+- Tracker now includes checkpointing to avoid rescanning full Safari history each run.
+- Dashboard is a minimal Streamlit view over `reading_state.db`.
+- Streamlit can be launched with `python3 -m streamlit run dashboard.py`.
+- Git repo initialized with commits for core files and docs.
