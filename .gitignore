@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local DBs / data
+reading_state.db
+*.db
+
+# macOS
+.DS_Store
+
+# Streamlit
+.streamlit/
+streamlit.log
